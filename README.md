@@ -13,10 +13,10 @@
 
 ## Contributors
 
-Lê Thị Hoàng Anh & 2210070\
-Nguyễn Sỹ Công  & 2210409\
-Đỗ Duy Cương & 2210413\
-Nguyễn Minh Khoa & 2211627\
-Phan Phúc Lâm  & 2211818\
-Trần Minh Quân & 2212822\
-Huỳnh Cảnh Thịnh & 2213272
+Lê Thị Hoàng Anh - 2210070\
+Nguyễn Sỹ Công  - 2210409\
+Đỗ Duy Cương - 2210413\
+Nguyễn Minh Khoa - 2211627\
+Phan Phúc Lâm - 2211818\
+Trần Minh Quân - 2212822\
+Huỳnh Cảnh Thịnh - 2213272
