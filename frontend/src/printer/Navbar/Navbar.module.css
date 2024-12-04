@@ -1,0 +1,55 @@
+.Navbar{
+    width: 70%;
+    height: 180px;
+    margin: 0 auto;
+    position: relative;
+    top: -63px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.Button{
+    width: 200px;
+    height: 86px;
+    background-color: rgb(46, 92, 167);
+    margin: 0 20px;
+    border: none;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+ .Button:hover{
+    transform: scale(1.1);
+ }
+
+
+
+.right_button{
+    width: 240px;
+    clip-path: polygon(0 0, 65% 0, 100% 50%, 65% 100%, 0 100%);
+}
+.left_button{
+    width: 220px;
+    clip-path: polygon(35% 0%, 100% 0%, 100% 100%, 35% 100%, 0% 50%);
+}
+
+
+
+
+
+
+  .text{
+margin-top: 296px;
+text-align: center;
+color: white;
+font-size: 28px;
+font-weight: 700;
+
+  }
+  a{
+    text-decoration: none; /* Disable underline */
+  }

@@ -1,0 +1,85 @@
+.PrinterDetail__fullScreen {
+    width: 100%;
+    box-sizing: border-box;
+    height: 700px;
+    background-color: rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+.PrinterDetail__fullScreen .printerDetail_midBox {
+    height: 400px;
+    width: 500px;
+    background-color: #f1f9ff;
+    opacity: 1;
+    border: 1px solid #032b91;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.printerDetail_midBox_title {
+    margin: 0;
+    font-size: 20px;
+    line-height: 40px;
+    color: #032b91;
+    display: flex;
+    justify-content: center;
+}
+.printerDetail_midBox_line {
+    height: 1px;
+    width: 90%;
+    background-color: #032b91;
+}
+.printerDetail_midBox_table, .printerDetail_table_body,
+.printerDetail_table_row, .printerDetail_table_row td {
+    display: flex;
+    flex-direction: column;
+    color: #686868;
+}
+.printerDetail_midBox_table {width: 90%; margin: 10px 0;}
+.printerDetail_table_row, .printerDetail_table_body {
+    width: 100%;
+}
+.printerDetail_table_row {
+    flex-direction: row;
+}
+.printerDetail_table_row td {
+    line-height: 50px;
+    font-size: 18px;
+}
+.printerDetail_table_cl1 {
+    width: 200px;
+    align-items: flex-start;
+}
+.printerDetail_table_cl2 {
+    flex: 1;
+    align-items: flex-end;
+}
+.printerDetail_midBox_footer {
+    flex: 1;
+    width: 100%;
+    position: relative;
+}
+.printerDetail_midBox_done {
+    border: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0d99ff;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
+}
+.printerDetail_midBox_done:hover {
+    background-color: #032b91;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}

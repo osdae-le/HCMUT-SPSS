@@ -1,0 +1,89 @@
+.header {
+  display: flex;
+  flex-flow: row;
+  z-index: 99;
+}
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+}
+.Header_left {
+  position: relative;
+  flex: 0;
+}
+
+.Header_right {
+  position: relative;
+  flex: 0;
+}
+.Header_right_layout {
+  height: 120px;
+  width: 260px;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  z-index: 1;
+  right: 0;
+  margin-right: 20px;
+}
+.Header_bell {
+  height: 100px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+.Header_avatar {
+  height: 100px;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Header_text {
+  font-weight: bold;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Header_cast {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.Cast_content {
+  color: white;
+  font-weight: bold;
+  align-self: center;
+}
+.Cast_option {
+  width: 12px;
+  height: 12px;
+  align-self: center;
+  margin: 0 5px;
+  margin-right: 36px;
+}
+
+.Header_mid {
+  flex: 1;
+  height: 91px;
+  width: 100%;
+  background-color: rgb(46, 92, 167);
+}
+
+.reverse {
+  transform: scaleX(-1);
+  z-index: -1;
+}
+.border {
+  border: 1px solid black;
+}
+.stroke {
+  stroke: #000;
+  stroke-width: 4px;
+}

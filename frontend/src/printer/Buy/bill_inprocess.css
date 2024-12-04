@@ -1,0 +1,117 @@
+.box_full-screen {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    /*position: fixed;*/
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    opacity: 1;
+    z-index: 3;
+}
+
+.box_contain_bill_detail_inprocess {
+    opacity: 1;
+    height: 400px;
+    width: 350px;
+    background-color: #fff;
+    border: 2px solid rgba(3,43,145,1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}
+
+.header_box_contain_bill_detail {
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    color: #28559a;
+    border-bottom: 2px dashed #032b91;
+}
+
+.middle_box_contain_bill_detail {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px dashed #032b91;
+}
+
+.middle_box_contain_bill_detail tbody {
+    margin: 20px 20px;
+}
+
+.row_of_table_bill {
+    font-size: 18px;
+    color: #686868;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.column2_of_table_bill {
+    text-align: right;
+    flex: 1;
+}
+
+.column1_of_table_bill {
+    width: 150px;
+}
+
+.bottom_box_contain_bill_detail {
+    display: flex;
+    flex: 1;
+    position: relative;
+}
+
+.bottom_box_contain_bill_detail button {
+    border: none;
+    height: 40px;
+    width: 90px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #0d99ff;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+}
+
+.bottom_box_contain_bill_detail .bottom_box_to_cancel {
+    width: 150px;
+    left: 30px;
+    background-color: #e63d3d;
+}
+
+.bottom_box_contain_bill_detail .bottom_box_to_cancel:hover {
+    background-color: #770202;
+    transition: all 0.3s;
+}
+
+.bottom_box_contain_bill_detail button:hover {
+    background-color: #032b91;
+    transition: all 0.3s;
+}
+
+@keyframes HiddenBillCompleted {
+    from {
+        transform: translateY(-80%);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.box_full-screen {
+    animation-name: HiddenBillCompleted;
+    animation-duration: 0.4s;
+    animation-timing-function: ease-in-out;
+}

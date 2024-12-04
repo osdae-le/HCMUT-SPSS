@@ -1,0 +1,97 @@
+.full_box_history_pay {
+    width: 98%;
+    display: flex;
+    max-height: 240px;
+    margin: 20px 0;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.history_pay__table {
+    border: 2px solid #032b91;
+    border-radius: 5px;
+    margin: 0 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+.history_pay__table thead {
+    border-bottom: 2px solid #032b91;
+}
+
+.history_pay__table_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.history_pay_table_head .history_cl {
+    font-size: 16px;
+    line-height: 40px;
+    height: 40px;
+    font-weight: 800;
+    color: #032b91;
+    padding: 0;
+}
+
+.history_pay__table_text, .history_cl {
+    font-size: 16px;
+    line-height: 40px;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+}
+
+.history_pay__table_text {
+    margin: 0 20px;
+    border-bottom: 1px solid #000;
+}
+
+.history_pay_table_body .history_pay__table_row:last-child .history_pay__table_text {
+    border: none;
+}
+
+.history_pay__table_column1 {
+    width: 55%;
+    border-right: 2px solid #032b91;
+}
+
+.history_pay__table_column2 {
+    width: 25%;
+    border-right: 2px solid #032b91;
+    text-align: center;
+}
+
+.history_pay__table_column3 {
+    width: 20%;
+    text-align: center;
+}
+
+.history_pay__table_column3 .history_pay__table_text {
+    color: #0083e0;
+    cursor: pointer;
+}
+
+.history_pay__table_column3 .history_pay__table_text:hover {
+    color: #041542;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: translateY(100%);
+    transition: transform 0.1s ease-in-out;
+    z-index: 5;
+}
+
+.modal--visible {
+    transform: translateY(0);
+}
+
+.modal--hidden {
+    transform: translateY(100%);
+}

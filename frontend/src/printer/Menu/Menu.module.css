@@ -1,0 +1,35 @@
+.background{
+top: 0;
+right: 0;
+position: absolute;
+z-index: -1;
+}
+.grap{
+width: 1024px;
+height: 300px;
+position: absolute;
+left: 50%;
+transform: translate(-50%, -50%);
+top: 40%;
+
+
+}
+.button{
+border: none;
+background-color: transparent;
+transition: transform 0.3s ease;
+
+}
+.button:hover{
+    transform: scale(1.1);
+
+}
+.even{
+position: relative;
+top: 124px;
+}
+
+span{
+    position: relative;
+    top: -150px;
+}

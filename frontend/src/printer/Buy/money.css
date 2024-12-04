@@ -1,0 +1,329 @@
+.contain3Box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contain2Box {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+.leftBoxWithExchange {
+    height: auto;
+    width: 25%;
+    border: 2px solid #032B91;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.leftBoxWithExchange h5 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.leftBoxWithExchange p {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0;
+    padding-left: 10px;
+    color: #74726e;
+}
+
+
+.exchange_paper_to {
+    display: flex;
+    flex-direction: row;
+    margin: 0 15px;
+    border-bottom: 1px solid #000;
+}
+
+.condition_to_exchange {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 15px 0;
+}
+
+.condition_to_exchange input {
+    padding: 0;
+    font-size: 14px;
+    line-height: 25px;
+    padding-left: 10px;
+}
+
+.Box-of-condition {
+    height: 30px;
+    width: 130px;
+    border: 1px solid #74726e;
+    border-radius: 3px;
+    margin: 10px 0;
+    margin-left: 20px;
+    padding-left: 10px;
+    position: relative;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.condition_to_exchange li {
+    position: relative;
+}
+
+.contain_p {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 30px;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.condition_to_exchange .contain_p p {
+    padding: 0;
+    font-size: 16px;
+}
+
+.box-of-condition-more {
+    height: 20px;
+    width: 16px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 5px;
+}
+
+.list__type_of_paper {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    left: -1px;
+    right: -1px;
+    top: 32px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    z-index: 4;
+    background-color: #fff;
+}
+
+.list__type_of_paper li {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    z-index: 4;
+}
+
+.list__type_of_paper li:hover {
+    background-color: #032B91;
+    color: #fff;
+    cursor: pointer;
+}
+
+.type_of_paper.hidden {
+    display: none;
+}
+
+.type_of_paper.visible {
+    display: block;
+}
+
+.rotate-icon {
+    transform: rotate(180deg) translateY(8px);
+    transition: transform 0.3s ease;
+}
+
+
+
+.exchange_money_to {
+    margin: 0 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.contain_arrow-right-to {
+    display: flex;
+    align-items: center;
+}
+
+.contain_svg_arrow_right {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #032b91;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right_arrow_logo {
+    height: 24px;
+    width: 24px;
+    fill: #fff;
+}
+
+.number_of_paper_exchange {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.number_of_paper_exchange p {
+    font-size: 32px;
+    line-height: 40px;
+    color: #000;
+    font-weight: 500;
+}
+
+.rightBoxWithExchange {
+    width: 75%;
+    border: 2px solid #032B91;
+    border-radius: 10px;
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.fill_in_money {
+    height: 50%;
+    width: 90%;
+    border-bottom: 1px solid #000;
+    margin: 0 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fillmoney_contain_input_p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.fillmoney_contain_input_p .to_fill_money {
+    height: 40px;
+    width: 900px;
+    border: 1px solid #74726e;
+    border-radius: 2px;
+    padding-left: 10px;
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.fillmoney_contain_p {
+    display: inline-block;
+    background-color: #fff;
+    position: absolute;
+    top: -10px;
+    left: 20px;
+}
+
+.fillmoney_contain_input_p p {
+    font-size: 16px;
+    color: #74726e;
+    line-height: 20px;
+    margin: 0;
+}
+
+.pay_method {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px;
+}
+
+.pay_method__text {
+    display: flex;
+    position: relative;
+}
+
+.pay_method__text p {
+    font-size: 20px;
+    line-height: 40px;
+    margin: 10px 0;
+    position: relative;
+    left: 80px;
+}
+
+.pay_method__method {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: 10px 0;
+}
+
+.list_of_method {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+}
+
+.list_of_method li {
+    display: flex;
+    align-items: center;
+}
+
+.list_of_method__with_BK_pay {
+    background-image: url(./image_2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.list_of_method__on_click {
+    height: 50px;
+    width: 150px;
+    border: none;
+    margin: 0 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #006fbe;
+    cursor: pointer;
+}
+
+.list_of_method__line {
+    width: 1px;
+    height: 50px;
+    background-color: #000;
+}
+
+.list_of_method__pay {
+    height: 60px;
+    width: 170px;
+    border: none;
+    font-size: 20px;
+    line-height: 60px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #1488db;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40px;
+    cursor: pointer;
+}
+
+.list_of_method__pay:hover {
+    background-color: #032B91;
+}

@@ -1,0 +1,64 @@
+.deletedCompleted_fullScreen {
+    height: 700px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+.deletedCompleted_midBox {
+    height: 250px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #bde5ff;
+}
+.deletedCompleted_midBox_header {
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.deletedCompleted_midBox_header_img {
+    height: 74px;
+    width: 74px;
+    background-image: url(./check_ring_round_duotone_line.png);
+    background-repeat: no-repeat;
+    background-size: 74px 74px;
+}
+.deletedCompleted_midBox_center {
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    font-weight: 500;
+}
+.deletedCompleted_midBox_footer {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.deletedCompleted_midBox_button {
+    height: 40px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #0d99ff;
+    color: #fff;
+}
+.deletedCompleted_midBox_button:hover {
+    background-color: #035b99;
+    cursor: pointer;
+    transition: all 0.2s;
+}

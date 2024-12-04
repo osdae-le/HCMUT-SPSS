@@ -1,0 +1,238 @@
+.Printer-fullScreen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.Printer_fullBox {
+    width: 1100px;
+    height: 880px;
+    display: flex;
+    flex-direction: column;
+}
+.PrinterHeader {
+    height: 80px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #7ac7ff;
+    display: flex;
+    align-items: center;
+    border: 1px solid #000;
+}
+.printerHeaderMid {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.printerHeaderMidLeft, .printerHeaderMidRight, .printerHeaderAdd {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.printerHeaderMidLeft {
+    width: 50%;
+    position: relative;
+    justify-content: flex-start;
+}
+.printerHeaderEmpty {
+    width: 40px;
+}
+.printerHeaderAdd {
+    border-radius: 4px;
+    background-color: #28559a;
+    border: 1px solid #000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.printerHeaderAdd:hover {
+    background-color: #3067d5;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.printerHeaderAdd p {
+    margin: 0;
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 10px;
+}
+.printerHeaderAdd_Plus {
+    height: 20px;
+    width: 20px;
+    fill: #fff;
+    margin-left: 10px;
+}
+.printerHeaderAmount {
+    font-size: 18px;
+    line-height: 40px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 20px;
+}
+.printerHeaderMidRight {
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+.printerHeaderMidRight_img {
+    height: 40px;
+    width: 40px;
+    background-image: url(./Sort_down.png);
+    background-size: center;
+    background-repeat: no-repeat;
+    margin: 0 10px;
+}
+.printerHeaderMidRight_containInput {
+    display: flex;
+    position: relative;
+}
+
+.printerHeaderMidRight_input {
+    height: 44px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 44px;
+    padding: 0 6px;
+    margin: 0 10px;
+}
+.containLogoSearch {
+    width: 40px;
+    height: 40px;
+    background-image: url(./Search_alt_light.png);
+    background-size: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.tableOfPrinter, .tableOfPrinter thead, .tableOfPrinter_body,
+.tableOfPrinter_row, .tableOfPrinter_row td {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+.tableOfPrinter {
+    width: 100%;
+    flex: 1;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #000;
+    flex-direction: column;
+    overflow-y: auto;
+    background-color: #f7f7f7;
+}
+.tableOfPrinter thead {
+    height: 60px;
+}
+.tableOfPrinter_body {
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+}
+.tableOfPrinter_row {
+    flex-direction: row;
+    width: 90%;
+}
+.tableOfPrinter__Box {
+    border-radius: 10px;
+    height: 200px;
+    width: 160px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.tableOfPrinter_row td {
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+}
+.tableOfPrinter__Box__img {
+    height: 100px;
+    width: 100px;
+    background-image: url(./Group8768.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    display: flex;
+    margin: 15px 0 5px 0;
+}
+.tableOfPrinter__Box_name {
+    flex: 1;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: bold;
+    margin: 5px 5px;
+    text-align: center;
+}
+.__Box__img_yellow {
+    background-image: url(./Group8767.png);
+}
+.__Box__img_red {
+    background-image: url(./Group8774.png);
+}
+.tableOfPrinter__Box_more {
+    height: 25px;
+    width: 25px;
+}
+.tableOfPrinter__Box_more:hover {
+    fill: #1b48a1;
+    cursor: pointer;
+}
+.tableOfPrinter__Box_option {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 5px;
+    right: 0px;
+}
+.tableOfPrinter__subBox_option, .tableOfPrinter__subBox_list {
+    display: flex;
+    flex-direction: column;
+}
+.tableOfPrinter__subBox_option {
+    opacity: 0.1;
+    transform: translateX(-79px);
+    transition: transform 0.2s ease-in-out, opacity 0.12s ease;
+    position: absolute;
+    top: 30px;
+    left: 100%;
+    visibility: hidden;
+    z-index: 2;
+}
+.tableOfPrinter__subBox_option.show {
+    opacity: 1;
+    transform: translateX(-80px);
+    visibility: visible;
+}
+.tableOfPrinter__subBox_list {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: #f1f9ff;
+    border-radius: 5px;
+    border: 1px solid #032b91;
+    color: #032b91;
+    box-sizing: unset;
+    z-index: 2;
+    width: 100px;
+}
+.tableOfPrinter__subBox_list li {
+    display: flex;
+    padding: 5px 10px;
+    font-size: 16px;
+    line-height: 20px;
+    height: 20px;
+    z-index: 2;
+}
+.tableOfPrinter__subBox_list li:hover {
+    background-color: #7ac7ff;
+    cursor: pointer;
+    transition: all 0.2s;
+}

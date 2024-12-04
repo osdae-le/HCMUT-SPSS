@@ -1,0 +1,135 @@
+.back {
+  width: 100%;
+  position: relative;
+  top: -100px;
+}
+.grap {
+  width: 100%;
+  opacity: 1;
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 0;
+  padding-top: 100px;
+  
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+}
+.main_logo {
+  margin-top: 100px;
+  width: 400px;
+  position: relative;
+  margin: 100px auto 0;
+}
+.title {
+  display: flex;
+  color: rgb(46, 92, 167);
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+.space {
+  position: relative;
+  width: 100px;
+  height: 113px;
+}
+.in {
+  font-size: 108px;
+  font-weight: bold;
+  position: absolute;
+}
+.small_text {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.text {
+  font-size: 32px;
+  font-weight: bold;
+}
+.login {
+  height: 710px;
+  flex-grow: 7;
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.board {
+  width: 700px;
+  height: 700px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  /* background-color: aquamarine; */
+  width: 570px;
+  height: 600px;
+  position: relative;
+}
+.header1 {
+  color: #4e4941;
+  font-size: 36px;
+  font-weight: 600;
+}
+.small_text {
+  color: #8e8e8e;
+  margin-top: 5px;
+  font-size: 24px;
+}
+
+.line {
+  border: 0;
+  height: 3px;
+  background: #686868;
+  margin-top: 5px;
+  margin-bottom: 60px;
+}
+.norm_text {
+  color: #8e8e8e;
+  margin-top: 20px;
+  font-size: 32px;
+}
+.input {
+  margin-top: 10px;
+  width: 100%;
+  padding: 24px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical;
+  font-size: 28px;
+  color: #4e4941;
+}
+input::placeholder {
+  color: #888; /* Placeholder text color */
+  font-style: italic; /* Placeholder font style */
+}
+.forgot {
+  float: right;
+  margin-left: 80%;
+  color: #1488db;
+  margin-top: 5px;
+}
+
+.login_button {
+  position: absolute;
+  left: 155px;
+  bottom: 0;
+  width: 260px;
+  height: 80px;
+  margin-bottom: 10px;
+  font-size: 36px;
+  font-weight: 800px;
+  border-radius: 15px;
+  background-color: #1488db;
+  border: none;
+  color: white;
+}

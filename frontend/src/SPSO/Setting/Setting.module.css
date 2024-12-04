@@ -1,0 +1,229 @@
+.page{
+margin-bottom: 150px;
+}
+.grap{
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+.title{
+color: #434341;
+font-size: 24px;
+font-weight: bold;
+margin-bottom: 20px;
+margin-top: 60px;
+}
+.board{
+    background-color: white;
+    height: fit-content;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px 4px rgba(3, 43, 145, 0.15);
+    display: flex;
+    flex-direction: row;
+}
+
+.number{
+display: flex;
+flex-direction: column;
+margin:0px 40px;
+
+align-items: center;
+}
+.normText{
+    margin-top: 24px;
+font-size: 20px;
+font-weight: 600; 
+color: #434341;
+}
+.input{
+    text-align: center;
+    padding: 20px 0px;
+width: 160px;
+font-size: 32px;
+margin-top: 28px;
+border-radius: 5px;
+color: #434341;
+border: none;
+box-shadow: 0px 0px 8px 2px rgba(92, 88, 80, 0.2);
+margin-bottom: 8px;
+}
+.smallText{
+color: #434341;
+font-size: 12px;
+font-weight: 500;
+}
+.line{
+height:160px ;
+width: 1px;
+background-color: #434341;
+margin: 40px 0px;
+
+}
+.day{
+display: flex;
+flex-grow: 1;
+flex-direction:column;
+align-items: center;
+/* margin: 0px 60px; */
+}
+.termGrap{
+display: flex;
+flex-direction: row;
+margin-top: 32px;
+margin-left: 36px;
+}
+.term{
+margin: 0px 30px;
+}
+.text{
+font-size: 16px;
+font-weight: 500;
+ color: #686868;margin-bottom: 8px;
+}
+.inputDate{
+color: #434341;
+padding: 8px;
+width: 80%;
+border-radius: 5px;
+font-size: 32px;
+border-color:#BEBEBE ;
+text-align: center;
+}
+
+.grap2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+    
+.printing {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    width: 50%;
+    
+}
+.available{
+    width: 50%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+.grid{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+}
+.tag{
+width: 140px;
+height: 30px;
+border-radius: 3px;
+box-shadow: 0px 0px 4px 2px rgba(92, 88, 80, 0.2);
+margin: 10px 15px ;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.tagName{
+    flex-grow: 1;
+    margin-left: 10px;
+    color: #434341;
+}
+.tagLine{
+width: 1px;
+height: 100%;
+background-color: #BEBEBE;
+}
+.action{
+color:#434341;
+width: 30px;
+height: 30px;
+transition: background-color 0.5s ease;
+}
+.action:hover{
+    background-color: #BEBEBE;
+    cursor: pointer;
+}
+
+
+.toA4{
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.price{
+width: 200px;
+height: 50px;
+font-size: 20px;
+border: none;
+border-radius: 5px;
+box-shadow: 0px 0px 4px 2px rgba(92, 88, 80, 0.4);
+margin: 30px 0px;
+margin-left: 60px;
+text-align: center;
+}
+.title1{
+color: #5C5850;
+font-weight: 600;
+margin-left: 10px;
+}
+.eq{
+color: #5C5850;
+font-size: 32px;
+margin-left: 16px;
+padding-bottom: 5px;
+
+}
+.bigText{
+font-size: 32px;
+font-weight: 700;
+color: #5C5850;
+margin-left: 16px ;
+}
+.lineS{
+width: 1px;
+height: 70px;
+background-color: #434343;
+margin: 20px 50px ;
+
+}
+.toDiff{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 6px;
+}
+.grap2{
+margin-top: 4px;
+}
+.card{
+width: 70px;
+height: 60px;
+border: 1px solid #74726E;
+border-radius: 3px;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 0px 15px;
+}
+.cardInput{
+    height: 39px;
+    margin-top: 10px;
+/* width: 60px;
+height: 39px;
+text-align: center; */
+color: #494540;
+/* padding-left: 4px;
+font-weight: 600;
+margin-left: 6px; */
+font-weight: 600;
+}
+.cardLine{
+height: 1px;
+width: 70px;
+background-color:#74726E ;
+}
+.cardName{
+  font-size: 12px;
+  color: #74726E;
+}
