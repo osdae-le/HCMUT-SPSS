@@ -5,12 +5,15 @@ HCMUT Smart Printing Service (HCMUT-SPSS) is a web-based printing management sys
 User Management:
 - Authentication via organisation email (bknetid.hcmut.edu.vn).
 - Individual dashboards for students and Student Printing Service Officers (SPSO).
+  
 Printing System:
 - Upload documents, select printers, and configure printing options (paper size, range, duplex, etc.).
 - Monitor page balance and purchase additional pages using BKPay.
+  
 Logs & Reports:
 - Students can view detailed printing logs and summaries.
 - SPSOs can generate and view monthly and yearly reports on system usage.
+
 Printer Management:
 - SPSOs can add, enable, or disable printers.
 - Manage system configurations, including default page allocations and accepted file types.
